@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENAI</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <nav class="menu">
+        <section class="logo">
+            <a href > <img src="IMG/senai.png" alt="Chapeu"> </a>
+        </section>
+        <br/>
+        
+            <br/>
+            <section class="titles">
+    <h1 class="titulo">Cadastro de DEVS</h1>
+    <h4 class="subtitulo">Faça sua inscrição</h4>
+</section>
+    <br/>
+    <section class="principal">
+    <form action="/pagina-processados-form" method="post">
+
+        
+        <section class="name">
+        <label for="nome"><strong>Nome:</strong></label>
+        <br/>
+        <input type="text" name="nome" class="nome" required>
+
+        <br/>
+
+         <label for="Sobrenome"><strong>Sobrenome:</strong></label>
+         <br/>
+        <input type="text" sobrenome="sobrenome" class="sobrenome" required>
+
+        <br/>
+
+        <label for="telefone">Fone:</label>
+        <br/>
+       <input type="tel" type="tel" placeholder="(xx)xxxxx-xxxx" required>
+
+       <br/>
+
+       <label for="email">email:</label>
+       <br/>
+       <input id="email" type="email" required>
+
+       <br/>
+
+       <label for="nome"><strong>Em qual lado da aplicação você desenvolve?</strong></label>
+       <br/>
+       <label for="html">Front.end</label>
+       <input id="html" name="front.end" type="radio">
+
+       <br/>
+
+       <label for="html">back.end</label>
+       <input id="html" name="back.end" type="radio">
+
+       <br/>
+
+       <label for="html">Full-Stack</label>
+       <input id="html" name="Full-Stack" type="radio">
+
+       <br/>
+
+       <label for="nome"><strong>Nivel de experiência:</strong></label>
+       <br/>
+       <select>
+        <option>Pouca</option>
+        <option>Média</option>
+        <option>Alta</option>
+    </select>
+
+    <br/>
+
+    <label for="nome"><strong>Selecione quais tecnologias você trabalha:</strong></label>
+    <br/>
+        <input id="html" type="checkbox">
+        <label for="html">HTML</label>
+
+        <input id="css" type="checkbox">
+        <label for="css">CSS</label>
+
+        <input id="java" type="checkbox">
+        <label for="javav">JAVA</label>
+
+        <input id="javascript" type="checkbox">
+        <label for="javascript">javascript</label>
+
+        <input id="bancodedados" type="checkbox">
+        <label for="bancodedados">BANCO DE DADOS</label>
+
+        <input id="php" type="checkbox">
+        <label for="php">PHP</label>
+
+        <input id="python" type="checkbox">
+        <label for="python">PYTHON</label>
+
+        <br/>
+
+        <label for="mensagem">Conte um poco da sua experiência:</label>
+       <textarea id="mensagem" cols="70" rows="10"></textarea>
+
+
+       <section class="botao">
+        <button type="submit">Enviar</button>
+
+
+    </section>
+</body>
+</html>
